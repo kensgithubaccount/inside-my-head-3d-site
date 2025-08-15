@@ -1,6 +1,7 @@
 "use client";
 import React, { useRef, useState } from "react";
-import Brain3D from "@/components/Brain3D";
+- import Brain3D from "@/components/Brain3D";
++ import Brain3D from "../components/Brain3D";
 
 export default function Page(){
   const heroRef = useRef<HTMLElement>(null);
